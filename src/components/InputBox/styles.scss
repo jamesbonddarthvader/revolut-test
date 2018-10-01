@@ -1,0 +1,40 @@
+.input-box__wrap {
+  display: table;
+  width: 100%;
+  padding: 0 10px;
+}
+.input-box__wrap-inner {
+  height: 100px;
+  vertical-align: middle;
+  display: table-cell;
+  .ui.selection.dropdown {
+    min-width: 75px;
+  }
+}
+
+.input-box__input {
+  border: none;
+  height: 38px;
+  line-height: 38px;
+  direction: rtl;
+  background: inherit;
+}
+
+.input-box__flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.input-box__flex-item {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.input-box__wrap:nth-child(1) {
+  background: #fff;
+}

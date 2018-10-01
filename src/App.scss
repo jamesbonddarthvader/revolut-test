@@ -1,0 +1,62 @@
+body {
+  background: #162844;
+}
+.app-wrap {
+  width: 300px;
+  margin: 0 auto;
+  background: #eaeaea;
+  text-align: center;
+  &.app-wrap--loading {
+    background: #162844;
+    color: #fff;
+    padding: 20px 0;
+  }
+}
+.app-header {
+  text-align: center;
+  h4 {
+    font-weight: 400;
+    margin: 0;
+    background: #fff;
+    padding: 20px 0;
+  }
+}
+.app-body {
+}
+
+.app-exchange-btn {
+  background: #d9328a;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  }
+  &:active {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.app-exchange-rates {
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.app-exchange-rates__text {
+  position: relative;
+  bottom: 8px;
+  display: inline-block;
+  background: #fff;
+  line-height: 10px;
+  padding: 5px 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  color: #405ed6;
+}
